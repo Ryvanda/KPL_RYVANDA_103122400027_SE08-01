@@ -1,0 +1,11 @@
+//tulisakna sebuah fungsi yg menerima n bilangan dan mengembalikan nilai penjumblahan dari 1 sampaia n
+
+function Total(n) {
+    let result = 0;
+    for (let i = 1; i <= n; i++) {
+        result += i;
+    }
+    return result;
+}
+
+console.log(Total(3));
