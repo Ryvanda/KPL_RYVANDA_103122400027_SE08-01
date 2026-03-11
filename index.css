@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+
+body {
+  font-family: "Inconsolata";
+  font-weight: 500;
+  font-weight: 500;
+  line-height: 1.2;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+}
+
+.kotak-input {
+  display: block;
+  resize: none;
+}
+
+p > span {
+  color: coral; /* atau juga bisa pakai kode hex-nya, #FF7F50 */
+  font-weight: bold;
+}
