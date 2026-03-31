@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Konstruksi Perangkat Lunak</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <main class="bagian-utama">
+        <h1>Pengkonversi Gaya Teks</h1>
+        <p>
+          Alat ini bisa mengubah teks menjadi huruf besar, huruf kecil, dan
+          paragraf.
+        </p>
+        <label for="editor-kecil">Masukkan teks :</label>
+        <textarea
+          class="kotak-input"
+          id="editor-kecil"
+          rows="10"
+          cols="60"
+          placeholder="Kata-kata ... "
+        ></textarea>
+        <p>
+          Huruf: <span id="hf">0</span>, huruf besar:
+          <span id="hb">0</span> huruf kecil: <span id="hk">0</span>
+        </p>
+        <div class="container-btn-text">
+          <button id="huruf-besar">Besarkan</button>
+          <button id="huruf-kecil">Kecilkan</button>
+        </div>
+        <div class="container-btn-mode" id="mode-div">
+          <button id="tombol-terang" value="light">Mode Terang</button>
+          <button id="tombol-gelap" value="dark">Mode Gelap</button>
+          <button id="tombol-sepia" value="sepia">Mode Sepia</button>
+        </div>
+      </main>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

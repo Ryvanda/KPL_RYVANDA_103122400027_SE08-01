@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+
+.mode-gelap {
+  background-color: #171b25;
+  color: #ebecf7;
+}
+
+body {
+  font-family: "Inconsolata";
+  font-weight: 500;
+  font-weight: 500;
+  line-height: 1.2;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.dark-mode {
+  background-color: #171b25;
+  color: #ebecf7;
+}
+
+.form-dark-mode {
+  background-color: #2e3443;
+  color: #ebecf7;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+}
+
+.container-btn-text,
+.container-btn-mode {
+  display: flex;
+  gap: 0.5em;
+  margin-bottom: 1em;
+}
+
+.container-btn-mode button {
+  background-color: aqua;
+  border: 0 currentColor;
+  border-radius: 0.5em;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+
+.container-btn-text button {
+  background-color: #ebecf7;
+  border: 0 currentColor;
+  border-radius: 0.5em;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+
+.desc {
+  max-width: 32em;
+}
+
+.kotak-input {
+  display: block;
+  resize: none;
+}
+
+p > span {
+  font-weight: bold;
+}
+
+p > span:nth-child(1) {
+  color: blue;
+}
+
+p > span:nth-child(2) {
+  color: green;
+}
+
+p > span:nth-child(3) {
+  color: red;
+}
