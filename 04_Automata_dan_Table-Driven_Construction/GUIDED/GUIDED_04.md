@@ -10,7 +10,7 @@ Tersedia di [index.html](./index.html), [index.css](./index.css), [index.js](./i
 
 ## Output
 
-![Output dari Guided](./GUIDED_04.png).
+![Output dari Guided](./Guided_4.png).
 
 ## Deskripsi
 
